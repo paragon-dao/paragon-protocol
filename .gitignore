@@ -1,5 +1,8 @@
 # Dependencies
 node_modules/
+contracts/node_modules/
+contracts/yarn.lock
+contracts/package-lock.json
 yarn.lock
 package-lock.json
 
@@ -40,3 +43,30 @@ artifacts/
 .cache/
 .temp/
 *.bak
+
+# Hardhat/Solidity development
+cache/
+artifacts/
+typechain/
+typechain-types/
+coverage.json
+coverage/
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+gas-report.txt
+deployments/
+
+# Local blockchain data
+.openzeppelin/
+.upgradable/
+
+# Foundry specific
+forge-cache/
+out/
+broadcast/
+cache_forge/
+lib/
+
+# Tenderly
+.tenderly/
